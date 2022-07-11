@@ -1,0 +1,39 @@
+form{
+    width: 450px;
+    margin: auto;
+    background: rgba($color: $celeste, $alpha: 0.2);
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-radius: 7px;    
+}
+
+h2{
+    color: $rosa;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    border: none;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#button{
+    background: $celeste;
+    color: $white;
+    font-weight: bold;
+    &:hover{
+        cursor: pointer;
+        background: $rosa;
+    }
+}

@@ -1,0 +1,40 @@
+ul {
+    list-style-type: none;
+  }
+
+header{
+    div{
+    background-image: map-get($styles, gradient);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+    nav{
+        width: 80%;
+        margin: auto;
+        padding-top: 5px;
+        ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0;
+            li{
+            display: inline;
+            margin-right: 5px;
+            }
+                a{
+                    font-weight: bold;
+                    color: $celeste;
+                    &:hover{
+                        color: $rosa;
+                    }
+                }
+        }
+    }
+}
+
+.logo{
+    position: relative;
+    width: 280px;
+    margin: 0px auto;
+}

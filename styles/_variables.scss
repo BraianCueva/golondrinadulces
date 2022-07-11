@@ -1,0 +1,34 @@
+$celeste: rgb(87, 190, 235);
+
+$white:(white);
+
+$rosa:  rgb(220, 121, 173);
+
+$styles: (
+    gradient: linear-gradient(to left, $celeste, $rosa),
+);
+
+@mixin flex-row{
+    display: flex;
+    flex-direction:row;
+    }
+
+@mixin parallax {
+    background-attachment: fixed;
+    background-position-x: left;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    max-width: 100%;
+    position: relative;
+}
+
+@mixin texto-interior{
+	color: $white;
+	position: absolute;
+	text-align: center;
+	width: 50%;
+    padding: 7% 10px 10px 10px;
+    left: 25%;
+}

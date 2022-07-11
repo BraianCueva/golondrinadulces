@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Varela Round", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  height: 100%;
+  font-size: 1rem;
+}
+
+body {
+  min-height: 100%;
+  position: relative;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position-x: left;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  max-width: 100%;
+  position: relative;
+}
+
+.img-one {
+  background-image: url(../assets/parallax.jpg);
+  margin-bottom: 50px;
+}
+
+.texto-interior {
+  color: white;
+  position: absolute;
+  text-align: center;
+  width: 50%;
+  padding: 7% 10px 10px 10px;
+  left: 25%;
+}
+
+.shadow-text {
+  text-shadow: 0px 1px 3px gray;
+}
+
+.parrafo {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  color: rgb(87, 190, 235);
+  padding-top: 1%;
+}
+
+.card-title {
+  color: rgb(87, 190, 235);
+}
+
+.container {
+  padding-bottom: 10%;
+}
+
+.container-dos {
+  padding-bottom: 1%;
+}
+
+b {
+  font-weight: bold;
+  color: rgb(220, 121, 173);
+}
+
+ul {
+  list-style-type: none;
+}
+
+header div {
+  background-image: linear-gradient(to left, rgb(87, 190, 235), rgb(220, 121, 173));
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+header nav {
+  width: 80%;
+  margin: auto;
+  padding-top: 5px;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+}
+header nav ul li {
+  display: inline;
+  margin-right: 5px;
+}
+header nav ul a {
+  font-weight: bold;
+  color: rgb(87, 190, 235);
+}
+header nav ul a:hover {
+  color: rgb(220, 121, 173);
+}
+
+.logo {
+  position: relative;
+  width: 280px;
+  margin: 0px auto;
+}
+
+form {
+  width: 450px;
+  margin: auto;
+  background: rgba(87, 190, 235, 0.2);
+  padding: 10px 20px;
+  margin-top: 30px;
+  border-radius: 7px;
+}
+
+h2 {
+  color: rgb(220, 121, 173);
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  border: none;
+}
+
+textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+#button {
+  background: rgb(87, 190, 235);
+  color: white;
+  font-weight: bold;
+}
+#button:hover {
+  cursor: pointer;
+  background: rgb(220, 121, 173);
+}
+
+footer {
+  bottom: 0%;
+  width: 100%;
+  background-image: linear-gradient(to left, rgb(87, 190, 235), rgb(220, 121, 173));
+  position: absolute;
+  padding: 10px;
+}
+
+.isotipo {
+  height: 45px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h6 {
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */

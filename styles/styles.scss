@@ -1,0 +1,68 @@
+@import "variables";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Varela Round", sans-serif;
+  }
+
+a {
+  text-decoration: none;
+}
+
+html {
+  height: 100%;
+  font-size: 1rem;
+}
+
+body {
+  min-height: 100%;
+  position: relative;
+}
+
+.parallax{
+  @include parallax;
+}
+
+.img-one{
+  background-image: url(../assets/parallax.jpg);
+  margin-bottom: 50px;
+}
+
+.texto-interior{
+	@include texto-interior;
+}
+
+.shadow-text{
+  text-shadow: 0px 1px 3px gray;
+}
+
+.parrafo{
+  width: 50%;
+  text-align:center;
+  margin: auto;
+  color: $celeste;
+  padding-top: 1%;
+}
+
+.card-title {
+  color: $celeste;
+}
+
+.container{
+  padding-bottom: 10%;
+}
+
+.container-dos{
+  padding-bottom: 1%;
+}
+
+b {
+  font-weight: bold;
+  color: $rosa;
+}
+
+@import "header";
+@import "contact";
+@import "footer";

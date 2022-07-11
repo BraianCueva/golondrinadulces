@@ -1,0 +1,21 @@
+footer{
+    bottom: 0%;
+    width: 100%;
+    background-image: map-get($styles, gradient);
+    position: absolute;
+    padding: 10px;
+}
+
+.isotipo{
+    height: 45px;
+}
+
+.flex{
+    @include flex-row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h6{
+    color: $white;
+}
