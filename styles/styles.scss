@@ -17,8 +17,9 @@ html {
 }
 
 body {
-  min-height: 100%;
-  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column
 }
 
 .parallax{
@@ -27,7 +28,6 @@ body {
 
 .img-one{
   background-image: url(../assets/parallax.jpg);
-  margin-bottom: 50px;
 }
 
 .texto-interior{
@@ -62,6 +62,18 @@ b {
   font-weight: bold;
   color: $rosa;
 }
+
+@media screen and (max-width: 580px) {
+  .parrafo{
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    color: $celeste;
+    padding-top: 1%;
+    }
+  }
+
+  
 
 @import "header";
 @import "contact";

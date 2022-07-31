@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Varela Round", sans-serif;
+}
+
+.font--bold {
+  font-weight: bold;
+}
+
+.font--light {
+  font-weight: lighter;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  height: 100%;
+  font-size: 16px;
+}
+
+body {
+  min-height: 100%;
+}
+
+#grid {
+  display: grid;
+  grid-template-areas: "header" "section" "article" "footer";
+  grid-template-columns: auto;
+  grid-template-rows: 0.25fr 0.25fr auto 25px;
+}
+
+#gridProduct {
+  display: grid;
+  grid-template-areas: "header" "article" "footer";
+  grid-template-columns: auto;
+  grid-template-rows: auto 1fr 25px;
+}
+
+header {
+  grid-area: header;
+}
+
+section {
+  grid-area: section;
+}
+
+article {
+  grid-area: article;
+}
+
+footer {
+  grid-area: footer;
+}
+
+header div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: rgb(220, 121, 173);
+}
+
+header nav {
+  padding: 5px 3% 5px 3%;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 5px;
+}
+
+header nav ul li a {
+  font-weight: bold;
+  color: rgb(87, 190, 235);
+}
+
+header nav ul li a:hover {
+  font-weight: bold;
+  text-decoration: underline 3px;
+}
+
+section div {
+  text-align: center;
+}
+
+h1, h2 {
+  font-size: auto;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(87, 190, 235);
+  animation-duration: 10s;
+  animation-name: colores;
+  animation-iteration-count: infinite;
+}
+
+@keyframes colores {
+  0% {
+    color: rgb(87, 190, 235);
+  }
+  50% {
+    color: rgb(220, 121, 173);
+  }
+}
+.parrafo {
+  text-align: start;
+  margin: 10px 45px 10px 45px;
+  color: rgb(87, 190, 235);
+}
+
+footer {
+  bottom: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: auto;
+  padding: 3px;
+  background-color: rgb(220, 121, 173);
+}
+
+footer div a {
+  color: white;
+}
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 90%;
+}
+
+b {
+  font-weight: bold;
+  color: black;
+}
+
+@media screen and (max-width: 390px) {
+  html {
+    font-size: 12px;
+  }
+}
+.card-title {
+  color: rgb(87, 190, 235);
+}
+
+/*# sourceMappingURL=styles.css.map */

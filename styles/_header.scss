@@ -35,6 +35,27 @@ header{
 
 .logo{
     position: relative;
-    width: 280px;
+    width: 200px;
     margin: 0px auto;
 }
+
+@media screen and (max-width: 580px) {
+    header{
+        nav{
+            width: 95%;
+        }
+    }
+}
+
+@media screen and (max-width: 280px) {
+    header{
+        nav{
+            a{
+                font-size: 10px;
+
+            }
+        
+        }
+    }
+}
+

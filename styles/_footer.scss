@@ -1,9 +1,9 @@
 footer{
-    bottom: 0%;
     width: 100%;
     background-image: map-get($styles, gradient);
-    position: absolute;
+    position: relative;
     padding: 10px;
+    margin-top: auto;
 }
 
 .isotipo{
@@ -18,4 +18,25 @@ footer{
 
 h6{
     color: $white;
+}
+
+@media screen and (max-width: 580px) {
+    .icons{
+        width: 30px;
+    }
+    h6{
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .icons{
+        width: 25px;
+    }
+    h6{
+        font-size: 0.3rem;
+    }
+    .isotipo{
+        height: 30px;
+    }
 }
